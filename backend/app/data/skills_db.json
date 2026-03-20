@@ -1,0 +1,107 @@
+[
+  {
+    "skill_id": "python_basics",
+    "name": "Python Basics",
+    "default_level": "beginner",
+    "prerequisites": [],
+    "synonyms": ["python", "python3", "pip", "venv", "typing", "functions", "classes"],
+    "tags": ["backend", "programming"]
+  },
+  {
+    "skill_id": "data_structures",
+    "name": "Data Structures & Algorithms",
+    "default_level": "beginner",
+    "prerequisites": ["python_basics"],
+    "synonyms": ["data structures", "algorithms", "trees", "graphs", "dijkstra", "big o", "complexity"],
+    "tags": ["foundations"]
+  },
+  {
+    "skill_id": "machine_learning",
+    "name": "Machine Learning Fundamentals",
+    "default_level": "intermediate",
+    "prerequisites": ["python_basics", "data_structures"],
+    "synonyms": ["machine learning", "ml", "regression", "classification", "model evaluation", "feature scaling"],
+    "tags": ["ml"]
+  },
+  {
+    "skill_id": "nlp",
+    "name": "Natural Language Processing",
+    "default_level": "intermediate",
+    "prerequisites": ["python_basics", "machine_learning"],
+    "synonyms": ["nlp", "natural language processing", "tokenization", "embeddings", "transformers"],
+    "tags": ["ml", "language"]
+  },
+  {
+    "skill_id": "embeddings",
+    "name": "Embeddings & Sentence Similarity",
+    "default_level": "intermediate",
+    "prerequisites": ["machine_learning", "nlp"],
+    "synonyms": ["embeddings", "sentence-transformers", "cosine similarity", "semantic search"],
+    "tags": ["retrieval"]
+  },
+  {
+    "skill_id": "faiss_similarity",
+    "name": "FAISS Vector Similarity Search",
+    "default_level": "advanced",
+    "prerequisites": ["embeddings"],
+    "synonyms": ["faiss", "vector index", "approximate nearest neighbors", "ann", "indexflatip"],
+    "tags": ["retrieval"]
+  },
+  {
+    "skill_id": "fastapi_framework",
+    "name": "FastAPI Backend Development",
+    "default_level": "intermediate",
+    "prerequisites": ["python_basics"],
+    "synonyms": ["fastapi", "api", "rest", "pydantic", "uvicorn"],
+    "tags": ["backend"]
+  },
+  {
+    "skill_id": "api_design",
+    "name": "API Design & Validation",
+    "default_level": "intermediate",
+    "prerequisites": ["fastapi_framework"],
+    "synonyms": ["openapi", "request validation", "pydantic schemas", "cors", "pagination", "http status codes"],
+    "tags": ["backend"]
+  },
+  {
+    "skill_id": "react_frontend",
+    "name": "React Frontend Development",
+    "default_level": "intermediate",
+    "prerequisites": [],
+    "synonyms": ["react", "jsx", "hooks", "components", "state management"],
+    "tags": ["frontend"]
+  },
+  {
+    "skill_id": "axios_integration",
+    "name": "Axios API Integration",
+    "default_level": "beginner",
+    "prerequisites": ["react_frontend"],
+    "synonyms": ["axios", "fetch", "http client", "api integration"],
+    "tags": ["frontend"]
+  },
+  {
+    "skill_id": "tailwind_css",
+    "name": "Tailwind CSS for UI",
+    "default_level": "beginner",
+    "prerequisites": ["react_frontend"],
+    "synonyms": ["tailwind", "utility-first", "className", "design system"],
+    "tags": ["frontend"]
+  },
+  {
+    "skill_id": "docker_basics",
+    "name": "Docker Fundamentals",
+    "default_level": "intermediate",
+    "prerequisites": [],
+    "synonyms": ["docker", "dockerfile", "containers", "image", "layer caching"],
+    "tags": ["devops"]
+  },
+  {
+    "skill_id": "docker_compose",
+    "name": "Docker Compose for Multi-service Apps",
+    "default_level": "advanced",
+    "prerequisites": ["docker_basics"],
+    "synonyms": ["docker compose", "compose.yml", "services", "networks"],
+    "tags": ["devops"]
+  }
+]
+

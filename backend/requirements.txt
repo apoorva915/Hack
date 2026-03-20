@@ -1,0 +1,23 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Resume parsing
+pdfplumber
+pymupdf
+python-docx
+# PDF fallback
+pypdf
+
+# Skill extraction (embeddings + similarity)
+sentence-transformers
+faiss-cpu
+numpy
+
+# Optional LLM extraction
+openai
+tenacity
+
+# Optional: load .env in local dev
+python-dotenv

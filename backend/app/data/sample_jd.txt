@@ -1,0 +1,12 @@
+Job Description (sample)
+
+We are looking for a backend engineer to build an AI onboarding pipeline.
+Requirements:
+- Strong Python and API design fundamentals.
+- FastAPI / REST development with Pydantic validation.
+- NLP and sentence-transformers embeddings for semantic matching.
+- Use FAISS (vector index) for approximate nearest neighbor search.
+- Build data pipelines, reasoning traces, and learning path generation logic.
+Nice to have:
+- Docker compose for deploying multi-service applications.
+

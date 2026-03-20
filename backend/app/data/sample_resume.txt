@@ -1,0 +1,11 @@
+APoor Resume (sample)
+
+Experience:
+- Built production services in Python with FastAPI and Pydantic for request validation.
+- Worked with machine learning models for semantic search using embeddings and cosine similarity.
+- Implemented APIs with CORS and OpenAPI docs.
+- Some exposure to Docker, container basics.
+
+Skills:
+Python, FastAPI, Pydantic, embeddings, cosine similarity, API design, Docker basics.
+

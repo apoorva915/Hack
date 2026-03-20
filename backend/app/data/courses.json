@@ -1,0 +1,107 @@
+[
+  {
+    "skill_id": "python_basics",
+    "title": "Python for Everybody",
+    "link": "https://www.coursera.org/specializations/python",
+    "difficulty": "beginner",
+    "estimated_time": "10-14 hours",
+    "tags": ["python", "foundations"]
+  },
+  {
+    "skill_id": "data_structures",
+    "title": "Data Structures & Algorithms (Python)",
+    "link": "https://www.freecodecamp.org/learn/coding-interview-prep/",
+    "difficulty": "beginner",
+    "estimated_time": "12-18 hours",
+    "tags": ["algorithms", "interview prep"]
+  },
+  {
+    "skill_id": "machine_learning",
+    "title": "Machine Learning Foundations",
+    "link": "https://www.coursera.org/learn/machine-learning",
+    "difficulty": "intermediate",
+    "estimated_time": "18-25 hours",
+    "tags": ["ml", "evaluation"]
+  },
+  {
+    "skill_id": "nlp",
+    "title": "Natural Language Processing (NLP) Specialization",
+    "link": "https://www.coursera.org/specializations/natural-language-processing",
+    "difficulty": "intermediate",
+    "estimated_time": "20-28 hours",
+    "tags": ["nlp", "tokenization"]
+  },
+  {
+    "skill_id": "embeddings",
+    "title": "Semantic Search & Embeddings",
+    "link": "https://www.sbert.net/examples/applications/semantic_search/README.html",
+    "difficulty": "intermediate",
+    "estimated_time": "8-12 hours",
+    "tags": ["embeddings", "cosine similarity"]
+  },
+  {
+    "skill_id": "faiss_similarity",
+    "title": "FAISS for Vector Search (Hands-on)",
+    "link": "https://github.com/facebookresearch/faiss/wiki/Faiss-indexes",
+    "difficulty": "advanced",
+    "estimated_time": "10-15 hours",
+    "tags": ["faiss", "ANN"]
+  },
+  {
+    "skill_id": "fastapi_framework",
+    "title": "FastAPI: The Complete Guide",
+    "link": "https://fastapi.tiangolo.com/",
+    "difficulty": "intermediate",
+    "estimated_time": "8-12 hours",
+    "tags": ["fastapi", "pydantic"]
+  },
+  {
+    "skill_id": "api_design",
+    "title": "APIs with OpenAPI & Validation",
+    "link": "https://swagger.io/specification/",
+    "difficulty": "intermediate",
+    "estimated_time": "6-10 hours",
+    "tags": ["openapi", "validation"]
+  },
+  {
+    "skill_id": "react_frontend",
+    "title": "React: Building Modern UIs",
+    "link": "https://react.dev/learn",
+    "difficulty": "intermediate",
+    "estimated_time": "12-18 hours",
+    "tags": ["react", "hooks"]
+  },
+  {
+    "skill_id": "axios_integration",
+    "title": "Calling APIs from React with Axios",
+    "link": "https://axios-http.com/docs/intro",
+    "difficulty": "beginner",
+    "estimated_time": "3-6 hours",
+    "tags": ["axios", "frontend"]
+  },
+  {
+    "skill_id": "tailwind_css",
+    "title": "Tailwind CSS Practical UI Building",
+    "link": "https://tailwindcss.com/docs/installation",
+    "difficulty": "beginner",
+    "estimated_time": "4-8 hours",
+    "tags": ["tailwind", "ui"]
+  },
+  {
+    "skill_id": "docker_basics",
+    "title": "Docker Fundamentals",
+    "link": "https://docs.docker.com/get-started/",
+    "difficulty": "intermediate",
+    "estimated_time": "6-10 hours",
+    "tags": ["docker", "containers"]
+  },
+  {
+    "skill_id": "docker_compose",
+    "title": "Docker Compose: Multi-container Apps",
+    "link": "https://docs.docker.com/compose/",
+    "difficulty": "advanced",
+    "estimated_time": "6-10 hours",
+    "tags": ["docker compose", "services"]
+  }
+]
+
