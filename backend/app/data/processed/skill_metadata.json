@@ -1,0 +1,22 @@
+{
+  "programming": {
+    "difficulty": 1,
+    "importance": 5
+  },
+  "database": {
+    "difficulty": 2,
+    "importance": 5
+  },
+  "data structures": {
+    "difficulty": 2,
+    "importance": 5
+  },
+  "testing": {
+    "difficulty": 2,
+    "importance": 4
+  },
+  "algorithms": {
+    "difficulty": 3,
+    "importance": 5
+  }
+}

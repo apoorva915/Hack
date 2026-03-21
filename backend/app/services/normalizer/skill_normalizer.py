@@ -35,6 +35,41 @@ if not logging.getLogger().handlers:
     logging.basicConfig(level=logging.INFO)
 
 
+GENERIC_SKILLS_BLACKLIST = {
+    "knowledge",
+    "quality",
+    "relevant",
+    "future",
+    "direction",
+    "working",
+    "team",
+    "members",
+    "managers",
+    "engineer",
+    "product",
+    "tests",
+    "concepts",
+    "communication",
+    "commitment",
+    "responsibility",
+    "ability",
+    "environment",
+    "experience",
+    "usability",
+    "release",
+    "tech",
+    "technologies",
+}
+
+
+def filter_generic_skills(skills: List[str]) -> List[str]:
+    return [s for s in skills if s not in GENERIC_SKILLS_BLACKLIST]
+
+
+def filter_generic(skills: List[str]) -> List[str]:
+    return filter_generic_skills(skills)
+
+
 # ----------------------------
 # Config
 # ----------------------------
@@ -588,6 +623,7 @@ def normalize_skill_list(skills: List[str]) -> List[str]:
             continue
         merged.add(alias_map.get(t, t))
     result = sorted(merged)
+    result = filter_generic(result)
     logger.info("log: normalized final skills count=%d", len(result))
     return result
 
