@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Skill Extraction Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>AI Skill Extraction Dashboard</h1>
+        <p class="subtitle">Upload Resume + Job Description PDFs to analyze skill gaps.</p>
+      </header>
+
+      <section class="upload-section" aria-label="Upload PDFs">
+        <label class="file-label">
+          <span class="file-label-text">Resume PDF</span>
+          <input id="resumeFile" type="file" accept=".pdf,application/pdf" />
+        </label>
+        <label class="file-label">
+          <span class="file-label-text">JD PDF</span>
+          <input id="jdFile" type="file" accept=".pdf,application/pdf" />
+        </label>
+        <button id="uploadBtn" type="button" class="primary-btn">Analyze Skill Gap</button>
+      </section>
+
+      <section class="results" aria-label="Results">
+        <article class="card">
+          <h2>Resume Skills</h2>
+          <ul id="resumeSkills" class="skill-list"></ul>
+        </article>
+        <article class="card">
+          <h2>JD Skills</h2>
+          <ul id="jdSkills" class="skill-list"></ul>
+        </article>
+        <article class="card">
+          <h2>Missing Skills</h2>
+          <ul id="missingSkills" class="skill-list"></ul>
+        </article>
+        <article class="card">
+          <h2>Matching Skills</h2>
+          <ul id="matchingSkills" class="skill-list"></ul>
+        </article>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

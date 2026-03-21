@@ -164,4 +164,3 @@ def extract_text_from_pdf(file: Any) -> dict:
         )
 
     return _success_response(text=extracted_text, num_pages=num_pages)
-
