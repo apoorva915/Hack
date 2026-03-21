@@ -1,0 +1,139 @@
+{
+    "programming": [],
+  
+    "java": ["programming"],
+    "kotlin": ["programming"],
+    "c++": ["programming"],
+    "python": ["programming"],
+    "javascript": ["programming"],
+    "typescript": ["javascript"],
+  
+    "html": [],
+    "css": ["html"],
+    "tailwind": ["css"],
+  
+    "react": ["javascript", "html", "css"],
+    "react native": ["react"],
+    "next.js": ["react"],
+    "vite": ["javascript"],
+  
+    "node": ["javascript"],
+    "node.js": ["javascript"],
+    "express.js": ["node.js"],
+    "rest": ["node.js"],
+    "rest apis": ["rest"],
+    "graphql": ["node.js"],
+  
+    "spring": ["java"],
+    "spring boot": ["spring"],
+    "spring mvc": ["spring"],
+  
+    "mvc": ["spring"],
+  
+    "mongodb": ["node.js"],
+    "mongoose": ["mongodb"],
+  
+    "sql": [],
+    "postgresql": ["sql"],
+    "mysql": ["sql"],
+    "amazon aurora": ["sql"],
+    "nosql databases": ["mongodb"],
+    "relational databases": ["sql"],
+  
+    "firebase": ["javascript"],
+  
+    "docker": [],
+    "ci/cd": ["git", "docker"],
+  
+    "git": [],
+    "github": ["git"],
+  
+    "postman": ["rest apis"],
+  
+    "aws": ["docker"],
+    "aws s3": ["aws"],
+    "aws dms": ["aws"],
+    "microsoft azure": ["cloud"],
+  
+    "cloud": [],
+    "cloud technologies": ["cloud"],
+  
+    "deployment": ["docker"],
+  
+    "maven": ["java"],
+  
+    "microservices": [
+      "spring boot",
+      "docker"
+    ],
+  
+    "restful": ["rest"],
+    "restful apis": ["restful"],
+  
+    "information security": ["programming"],
+    "cryptology": ["information security"],
+    "data hiding": ["cryptology"],
+  
+    "blockchain": ["programming"],
+    "payments": ["blockchain"],
+    "stripe": ["payments"],
+  
+    "gemini": ["api"],
+    "gemini ai api": ["gemini"],
+  
+    "api": ["programming"],
+    "apis": ["api"],
+  
+    "backend": ["programming"],
+    "backend development": ["backend"],
+  
+    "frontend": ["html", "css"],
+  
+    "software": ["programming"],
+    "software engineer": ["software"],
+  
+    "web development": [
+      "html",
+      "css",
+      "javascript"
+    ],
+  
+    "databases": ["sql"],
+  
+    "debugging": ["programming"],
+  
+    "design": ["programming"],
+  
+    "performance": ["software"],
+  
+    "problem-solving": ["programming"],
+  
+    "requirement analysis": ["software"],
+  
+    "lifecycle": ["software"],
+  
+    "management": [],
+  
+    "teamwork": [],
+  
+    "time management": [],
+  
+    "data structures": ["programming"],
+    "algorithms": ["data structures"],
+  
+    "object oriented programming": ["programming"],
+  
+    "database": ["sql"],
+  
+    "testing": ["programming"],
+    "unit testing": ["testing"],
+  
+    "design patterns": [
+      "object oriented programming"
+    ],
+  
+    "system design": [
+      "data structures",
+      "algorithms"
+    ]
+  }

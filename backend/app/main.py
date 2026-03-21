@@ -6,6 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.routes.analyze import router as analyze_router
+from app.routes.graph import router as graph_router
 
 
 logging.basicConfig(
@@ -27,6 +28,7 @@ app.add_middleware(
 )
 
 app.include_router(analyze_router, prefix="/analyze")
+app.include_router(graph_router, prefix="/graph")
 
 
 @app.get("/health")
